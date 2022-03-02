@@ -1,5 +1,6 @@
 import { React, useState } from 'react';
 import Link from 'next/link'
+import DropdownMenu from './dropdownMenu';
 
 function FireNavbar() {
 
@@ -11,9 +12,9 @@ function FireNavbar() {
     return (
 
         /* navbar */
-        <nav className="bg-gray-700">
+        <nav className="bg-gray-700 ">
             {/*margin: auto(centers the div withn the nav)   */}
-            <div className="max-w-6xl mx-auto px-4">
+            <div className="max-w-6xl mx-auto px-4 ">
                 <div className="flex justify-between">
                     <div className="flex space-x-4">
                         {/* logo */}
@@ -62,6 +63,9 @@ function FireNavbar() {
                                     Twitter Side-Navbar
                                 </a>
                             </Link>
+
+                            <DropdownMenu/>
+
                         </div>
                     </div>
 
