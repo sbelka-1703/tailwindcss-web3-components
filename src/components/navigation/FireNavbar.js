@@ -57,12 +57,7 @@ function FireNavbar() {
                                 </a>
                             </Link>
 
-                            <Link href="/twitter">
-                                <a
-                                    className="py-5 px-3 text-white hover:text-gray-200">
-                                    Twitter Side-Navbar
-                                </a>
-                            </Link>
+                           
 
                             <DropdownMenu/>
 
